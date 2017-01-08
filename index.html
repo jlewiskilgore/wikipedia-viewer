@@ -19,14 +19,21 @@
 	<br>
 	<div class="form-component input--medium input--search" align="center">
 		<input type="text" placeholder="Search">
-		<button type="submit" class="btn"><i class="fa fa-search"></i></button>
+		<button type="submit" class="btn" onclick="searchWiki()"><i class="fa fa-search"></i></button>
 	</div>
 	<br>
 	<div align="center">
 		<input type="button" value="Get Random Article" onclick="window.open('https://en.wikipedia.org/wiki/Special:Random')">
 	</div>
 	<br>
-	<div id="results" class="container-fluid col-md-4 col-md-offset-4" align="center">
+	<div id="results" align="center">
+		<ul class="list-group">
+		  <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+		  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+		  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+		  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+		  <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+		</ul>
 	</div>
 
 	<script type="text/javascript" src="js/wikiview.js"></script>

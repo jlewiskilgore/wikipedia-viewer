@@ -26,6 +26,12 @@ body {
 	color: green;
 }
 
+.list-group-item {
+	background-color: black;
+	border-color: green;
+	color: green;
+}
+
 #footer {
    position:fixed;
    left:0px;
