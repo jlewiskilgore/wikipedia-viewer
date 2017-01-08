@@ -8,6 +8,13 @@ h1 {
 	color: green;
 }
 
+input {
+	background-color: transparent;
+	border-color: green;
+	color: green;
+	align: center;
+}
+
 body {
 	background: black;
 	font-family: Orbitron, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
