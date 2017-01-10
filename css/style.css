@@ -9,27 +9,33 @@ h1 {
 }
 
 input {
-	background-color: transparent;
+	background-color: black;
 	border-color: green;
 	color: green;
 	align: center;
 }
 
 body {
-	background: black;
 	font-family: Orbitron, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
 	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
-	font-weight: 500;
 	line-height: 26.4px;
 	color: green;
+	font-weight: bold;
+	background-color: black;
 }
 
 .list-group-item {
-	background-color: black;
-	border-color: green;
-	color: green;
+	background-color: black !important;
+	border-color: green !important;
+	color: green !important;
+}
+
+.list-group-item:hover {
+	background-color: green !important;
+	color: black !important;
+	border-left-width: 10px;
 }
 
 #footer {
@@ -42,7 +48,6 @@ body {
    text-align: center;
    background: black;
    color: green;
-   height: auto;
    padding: 15px 5px 15px 10px;
 }
 

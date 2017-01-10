@@ -19,7 +19,7 @@ function searchWiki() {
 	    	console.log(x.query.search[i]);
 	    	articleURL = "https://en.wikipedia.org/wiki/" + x.query.search[i].title.replace(" ", "_");
 	    	console.log(articleURL);
-	    	listItem = "<a href="+articleURL+" target='_blank' class='list-group-item list-group-item-action'><h2>"+x.query.search[i].title+"</h2>"+x.query.search[i].snippet+"</a><br>";
+	    	listItem = "<a href="+articleURL+" target='_blank' class='list-group-item'><h2>"+x.query.search[i].title+"</h2>"+x.query.search[i].snippet+"</a><br>";
 	    	resultsContainer.innerHTML += listItem;
 	    }
 	  }
