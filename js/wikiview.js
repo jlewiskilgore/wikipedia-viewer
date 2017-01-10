@@ -23,3 +23,8 @@ function searchWiki() {
 		});
 	}
 }
+
+function clearResults() {
+	var resultsContainer = document.getElementById("resultsList");
+	resultsContainer.innerHTML = "";
+}
